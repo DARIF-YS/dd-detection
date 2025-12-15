@@ -9,7 +9,7 @@ This project delivers a robust, real-time solution for mitigating driving risks 
 | **Real-Time Processing** | OpenCV, Python | Live frame capture and eye region detection |
 | **Deployment** | Azure Container Instances (ACI) | Scalable and reliable cloud hosting |
 
-### 1. Project Structure & Repository Layout
+### 1. Project Structure 
 
 This structure facilitates clear separation of concerns, supporting training, API serving, and deployment.
 
@@ -52,7 +52,7 @@ The core of the system is a **Convolutional Neural Network (CNN)** optimized for
 * **Architecture**: Custom CNN designed for low latency inference.
 * **Evaluation**: Rigorous testing focused on high **Accuracy**, **Precision**, and **Recall** to minimize false negatives (missed drowsiness).
 
-### 4. Production Architecture & Scalable Deployment
+### 4. Production Architecture
 
 #### 4.1. End-to-End Deployment Pipeline
 
@@ -64,7 +64,7 @@ This diagram maps the complete Machine Learning lifecycle, from data ingestion t
 This critical flow illustrates the real-time mechanism. **OpenCV** extracts the eye region from live camera frames, which is sent to the model for prediction. A robust **timing mechanism** is implemented: an alert is triggered only if the eyes are classified as closed for a consecutive period of $\ge 3$ seconds, significantly reducing false positives.
 ![System Workflow](https://github.com/user-attachments/assets/83e04d49-8daf-4f32-8629-93c10c275c2b)
 
-#### 4.3. Interactive User Interface (Gradio)
+#### 4.3. Interactive User Interface
 
 The application features a user-friendly interface built with **Gradio**, enabling real-time detection via webcam and visual feedback.
 
@@ -79,4 +79,5 @@ The application features a user-friendly interface built with **Gradio**, enabli
 | **c. Eyes Closed** | Drowsiness detected - **ALERT triggered** (after $\ge 3$ seconds). | ![eyes_closed](https://github.com/user-attachments/assets/662ee59b-8372-4ab5-9eb4-9bc468d8045a) |
 | **d. No Eyes Detected**| Eyes obscured or user looking away - **ALERT triggered** (safety default). | ![no_eyes](https://github.com/user-attachments/assets/48c4f8fd-7a69-440b-ac46-b64806009889) |
 
+----
 *Developed by Yassine DARIF | INSEA - 2025*
