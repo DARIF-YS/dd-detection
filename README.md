@@ -68,7 +68,7 @@ This diagram maps the complete Machine Learning lifecycle, from data ingestion t
 ### 4.2. Real-Time Drowsiness Detection System Flow
 
 This critical flow illustrates the real-time mechanism. **OpenCV** extracts the eye region from live camera frames, which is sent to the model for prediction. A robust **timing mechanism** is implemented: an alert is triggered only if the eyes are classified as closed for a consecutive period of $\ge 3$ seconds, significantly reducing false positives.
-![System Workflow]([2.png](https://github.com/user-attachments/assets/83e04d49-8daf-4f32-8629-93c10c275c2b))
+![System Workflow](https://github.com/user-attachments/assets/83e04d49-8daf-4f32-8629-93c10c275c2b)
 
 ### 4.3. Interactive User Interface (Gradio)
 
