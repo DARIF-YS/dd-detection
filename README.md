@@ -80,4 +80,4 @@ The application features a user-friendly interface built with **Gradio**, enabli
 | **d. No Eyes Detected**| Eyes obscured or user looking away - **ALERT triggered** (safety default). | ![no_eyes](https://github.com/user-attachments/assets/48c4f8fd-7a69-440b-ac46-b64806009889) |
 
 ----
-*Developed by Yassine DARIF | INSEA - 2025*
+*Developed by Yassine DARIF - 2025*
