@@ -10,7 +10,7 @@ This project delivers a robust, real-time solution for mitigating driving risks 
 | **Deployment** | Azure Container Instances (ACI) | Scalable and reliable cloud hosting |
 
 ### 1. Project Structure & Repository Layout
-___
+
 This structure facilitates clear separation of concerns, supporting training, API serving, and deployment.
 
 <pre>
