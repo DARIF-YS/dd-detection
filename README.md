@@ -14,6 +14,7 @@ This project delivers a robust, real-time solution for mitigating driving risks 
 
 #### 1. Project Structure & Repository Layout
 
+
 This structure facilitates clear separation of concerns, supporting training, API serving, and deployment.
 
 <pre>
@@ -62,14 +63,12 @@ The core of the system is a **Convolutional Neural Network (CNN)** optimized for
 ### 4.1. End-to-End Deployment Pipeline
 
 This diagram maps the complete Machine Learning lifecycle, from data ingestion to cloud deployment. The model is containerized using **Docker** and deployed on **Azure Container Instances (ACI)**, exposed via a production-grade **FastAPI** service.
-
-![End-to-End Deep Learning Project Workflow](workflow.jpg)
+![End-to-End Deep Learning Project Workflow](https://github.com/user-attachments/assets/4ca8b4c4-274f-4db6-9bda-2fc59cc69bf1)
 
 ### 4.2. Real-Time Drowsiness Detection System Flow
 
 This critical flow illustrates the real-time mechanism. **OpenCV** extracts the eye region from live camera frames, which is sent to the model for prediction. A robust **timing mechanism** is implemented: an alert is triggered only if the eyes are classified as closed for a consecutive period of $\ge 3$ seconds, significantly reducing false positives.
-
-![System Workflow](2.png)
+![System Workflow]([2.png](https://github.com/user-attachments/assets/83e04d49-8daf-4f32-8629-93c10c275c2b))
 
 ### 4.3. Interactive User Interface (Gradio)
 
