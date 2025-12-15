@@ -1,6 +1,6 @@
-# Driver Drowsiness Detection System 
+## Driver Drowsiness Detection System 
 
-## Project Overview
+### Project Overview
 This project delivers a robust, real-time solution for mitigating driving risks by detecting driver fatigue. It leverages **Deep Learning (CNN)** for eye state classification, integrated into a scalable **Production Architecture** and deployed via **FastAPI** on Azure.
 
 | Component | Technology | Key Feature |
@@ -10,7 +10,7 @@ This project delivers a robust, real-time solution for mitigating driving risks 
 | **Real-Time Processing** | OpenCV, Python | Live frame capture and eye region detection |
 | **Deployment** | Azure Container Instances (ACI) | Scalable and reliable cloud hosting |
 
----
+--
 
 #### 1. Project Structure & Repository Layout
 
@@ -60,17 +60,17 @@ The core of the system is a **Convolutional Neural Network (CNN)** optimized for
 
 #### 4. Production Architecture & Scalable Deployment
 
-### 4.1. End-to-End Deployment Pipeline
+##### 4.1. End-to-End Deployment Pipeline
 
 This diagram maps the complete Machine Learning lifecycle, from data ingestion to cloud deployment. The model is containerized using **Docker** and deployed on **Azure Container Instances (ACI)**, exposed via a production-grade **FastAPI** service.
 ![End-to-End Deep Learning Project Workflow](https://github.com/user-attachments/assets/4ca8b4c4-274f-4db6-9bda-2fc59cc69bf1)
 
-### 4.2. Real-Time Drowsiness Detection System Flow
+##### 4.2. Real-Time Drowsiness Detection System Flow
 
 This critical flow illustrates the real-time mechanism. **OpenCV** extracts the eye region from live camera frames, which is sent to the model for prediction. A robust **timing mechanism** is implemented: an alert is triggered only if the eyes are classified as closed for a consecutive period of $\ge 3$ seconds, significantly reducing false positives.
 ![System Workflow](https://github.com/user-attachments/assets/83e04d49-8daf-4f32-8629-93c10c275c2b)
 
-### 4.3. Interactive User Interface (Gradio)
+##### 4.3. Interactive User Interface (Gradio)
 
 The application features a user-friendly interface built with **Gradio**, enabling real-time detection via webcam and visual feedback.
 
