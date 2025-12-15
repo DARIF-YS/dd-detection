@@ -79,5 +79,6 @@ The application features a user-friendly interface built with **Gradio**, enabli
 | **c. Eyes Closed** | Drowsiness detected - **ALERT triggered** (after $\ge 3$ seconds). | ![eyes_closed](https://github.com/user-attachments/assets/662ee59b-8372-4ab5-9eb4-9bc468d8045a) |
 | **d. No Eyes Detected**| Eyes obscured or user looking away - **ALERT triggered** (safety default). | ![no_eyes](https://github.com/user-attachments/assets/48c4f8fd-7a69-440b-ac46-b64806009889) |
 
-----
+__
+
 *Developed by Yassine DARIF - 2025*
