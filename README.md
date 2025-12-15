@@ -10,7 +10,7 @@ This project delivers a robust, real-time solution for mitigating driving risks 
 | **Real-Time Processing** | OpenCV, Python | Live frame capture and eye region detection |
 | **Deployment** | Azure Container Instances (ACI) | Scalable and reliable cloud hosting |
 
-<hr style="width:20%;">
+______________________________
 
 #### 1. Project Structure & Repository Layout
 
